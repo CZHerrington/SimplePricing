@@ -1,0 +1,173 @@
+.container{
+  font-family: 'Dosis', sans-serif;
+}
+
+.navbar a{
+  text-decoration: none;
+  padding-left: 22px;
+  color: grey;
+}
+.pricing a{
+  color: black;
+}
+
+.navbar{
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+.header-image{
+  padding-top: 10px;
+  height: 480px;
+  overflow: hidden;
+    position: relative;
+}
+/*Positions the header-image container and sizes it correctly, while
+cutting off extraneous image*/
+
+.header-image img{
+    float: left;
+    position: absolute;
+}
+/*Lets the header-image have text above it and properly positions it*/
+
+.header-text{
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 45px;
+  left: 500px;
+  top: 240px;
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+}
+/*sets up header-image text overlay*/
+
+
+
+/*BEGIN LISTS*/
+.list{
+  text-decoration: none;
+  list-style-type: none;
+  /*font-family: sans-serif;*/
+  text-align: center;
+  float: left;
+  padding-left: 22px;
+}
+
+.list_item{
+  border: solid grey 1px;
+  border-top-width: 0;
+  background-color: #e5e6e5;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+
+.list_button{
+  border: solid grey 1px;
+  border-top-width: 0;
+  padding: 10px;
+}
+
+/*BEGIN List header formatting*/
+span .permonth{
+  color: solid grey;
+}
+
+.list_head-1{
+  background-color: #6fac6f;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+font-family: 'Oswald', sans-serif;
+}
+.list_head-2{
+  background-color: #0052cc;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+}
+.list_head-3{
+  background-color: black;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+}
+/*END List header formatting*/
+
+/*Begin button CSS*/
+.myButton {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #ffffff));
+	background:-moz-linear-gradient(top, #ffffff 5%, #ffffff 100%);
+	background:-webkit-linear-gradient(top, #ffffff 5%, #ffffff 100%);
+	background:-o-linear-gradient(top, #ffffff 5%, #ffffff 100%);
+	background:-ms-linear-gradient(top, #ffffff 5%, #ffffff 100%);
+	background:linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0);
+	background-color:#ffffff;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #404040;
+	display:inline-block;
+	cursor:pointer;
+	color:#5c5c5c;
+	font-family:Arial;
+	font-size:17px;
+	padding:12px 23px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #ffffff));
+	background:-moz-linear-gradient(top, #ffffff 5%, #ffffff 100%);
+	background:-webkit-linear-gradient(top, #ffffff 5%, #ffffff 100%);
+	background:-o-linear-gradient(top, #ffffff 5%, #ffffff 100%);
+	background:-ms-linear-gradient(top, #ffffff 5%, #ffffff 100%);
+	background:linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0);
+	background-color:#ffffff;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+/*END LISTS*/
+.text-box{
+  float: left;
+}
+
+
+.table-box tr{
+margin-bottom: 80px;
+}
+
+
+.table-box td{
+max-width: 400px;
+}
+.box-header{
+  font-size: 15px;
+.table-box{
+  border: 1px solid black;
+ }
+ .table-box td{
+   border: 1px solid black;
+  padding: 20px;
+  font-family: 'Dosis', sans-serif;
+ }
+
+
+/*Begin Text Box*/
