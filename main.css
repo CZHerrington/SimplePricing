@@ -1,5 +1,12 @@
 .container{
   font-family: 'Dosis', sans-serif;
+  width: 1100px;
+  margin-left: 9%;
+  margin-top: 20px;
+}
+
+a.pricing {
+  color: black;
 }
 
 .navbar a{
@@ -18,7 +25,7 @@
 
 .header-image{
   padding-top: 10px;
-  height: 480px;
+  height: 400px;
   overflow: hidden;
     position: relative;
 }
@@ -36,8 +43,8 @@ cutting off extraneous image*/
   position: absolute;
   color: white;
   font-size: 45px;
-  left: 500px;
-  top: 240px;
+  left: 420px;
+  top: 160px;
   text-align: center;
   text-shadow: 1px 1px 2px black;
 }
@@ -52,13 +59,14 @@ cutting off extraneous image*/
   /*font-family: sans-serif;*/
   text-align: center;
   float: left;
-  padding-left: 22px;
+  padding-left: 35px;
+  width: 300px;
 }
 
 .list_item{
-  border: solid grey 1px;
+  border: solid #DFDFDF 1px;
   border-top-width: 0;
-  background-color: #e5e6e5;
+  background-color: #F7F7F7;
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 10px;
@@ -68,18 +76,26 @@ cutting off extraneous image*/
 
 
 .list_button{
-  border: solid grey 1px;
+  border: solid #DFDFDF 1px;
   border-top-width: 0;
   padding: 10px;
 }
 
 /*BEGIN List header formatting*/
-span .permonth{
-  color: solid grey;
+
+.price {
+  font-size: 40px;
+  margin: 0;
+  margin-top: 20px;
 }
 
+.month {
+  color: #969696;
+}
+
+
 .list_head-1{
-  background-color: #6fac6f;
+  background-color: #519251;
   padding-top: 10px;
   padding-bottom: 5px;
   font-size: 20px;
@@ -88,7 +104,7 @@ span .permonth{
 font-family: 'Oswald', sans-serif;
 }
 .list_head-2{
-  background-color: #0052cc;
+  background-color: #2C4985;
   padding-top: 10px;
   padding-bottom: 5px;
   font-size: 20px;
@@ -123,7 +139,7 @@ font-family: 'Oswald', sans-serif;
 	border:1px solid #404040;
 	display:inline-block;
 	cursor:pointer;
-	color:#5c5c5c;
+	color: black;
 	font-family:Arial;
 	font-size:17px;
 	padding:12px 23px;
@@ -147,27 +163,46 @@ font-family: 'Oswald', sans-serif;
 /*END LISTS*/
 .text-box{
   float: left;
+  margin-left: 5%;
+  margin-top: 1%;
 }
-
 
 .table-box tr{
 margin-bottom: 80px;
-}
 
+}
 
 .table-box td{
 max-width: 400px;
+padding-left: 40px;
+padding-top: 10px;
 }
+
 .box-header{
-  font-size: 15px;
-.table-box{
-  border: 1px solid black;
- }
+  font-size: 28px;
+
+}
+
+
  .table-box td{
-   border: 1px solid black;
   padding: 20px;
   font-family: 'Dosis', sans-serif;
  }
 
 
-/*Begin Text Box*/
+/*FOOTER*/
+.footer {
+  text-align: center;
+  font-weight: 200;
+  background-color: #111111;
+  width: 1280px;
+  color: #657177;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  clear: both;
+}
+
+.footer a:link { color: white; }
+.footer a:visited { color: white; }
+.footer a:hover { color: white; }
+.footer a:active { color: white; }
